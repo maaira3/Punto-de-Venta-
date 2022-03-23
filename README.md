@@ -1,4 +1,4 @@
-# Punto de Venta con conexión a un programa de lealtada bajo la distribución SaaS
+# Punto de Venta con conexión a un programa de lealtad bajo la distribución SaaS
 ## Descripción
 Sistema de Punto de Venta dirigido a los micronegocios enfocados en la industria de los alimentos bajo el modelo de distribución SaaS. 
 El sistema punto de venta cuenta con 7 módulos los cuales se presentan a continuación:
