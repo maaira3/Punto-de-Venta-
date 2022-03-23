@@ -1,0 +1,108 @@
+[data-theme="light"]{
+    --main-color: #ffffff; //Color de fondo
+    --div-color: #ededf1; //Color secundario de fondo (sidebar, headers, cards, etc...)
+    --input-color: #d3d3d3;
+    --txt-color: #202020; //Color del texto
+    --box-shadow-color: rgba(149, 157, 165, 0.2) 0px 8px 24px; //Sombra para second-light 
+}
+
+[data-theme="dark"]{
+    --main-color: #1f2933;//Color de fondo
+    --div-color: #323f4b;//Color secundario de fondo (sidebar, headers, cards, etc...)
+    --input-color: #788794;
+    --txt-color: #f5f7fa;//Color del texto
+    --box-shadow-color: rgba(0, 0, 0, 0.2) 0px 5px 10px; //Sombra para second-dark
+}
+
+
+[data-color="blue"]{
+    --color: #67b4fd; //Color principal (Botones y elementos "principales)
+    --second-color: #b3daff; //Color secundario (hover)
+}
+
+[data-color="red"]{
+    --color: #fb0b12;
+    --second-color: #ff4a6b;
+}
+
+[data-color="cyan"]{
+    --color: #10d4d2;
+    --second-color: #2ae9e6;
+}
+
+[data-color="green"]{
+    --color: #019707;
+    --second-color: #4caf50;
+}
+
+body{
+    background: var(--main-color);
+    color: var(--txt-color);
+}
+
+
+.btn-primary {
+    background: var(--color)!important;
+    border: none!important;
+    border-radius: 20px!important;
+    color: var(--txt-color)!important;
+    box-shadow: 0px 6px 16px 0px rgba(0,0,0,0.43);
+    -webkit-box-shadow: 0px 6px 16px 0px rgba(0,0,0,0.43);
+    -moz-box-shadow: 0px 6px 16px 0px rgba(0,0,0,0.43);
+  }
+
+.btn-secondary{
+    border: none!important;
+    border-radius: 20px!important;
+    color: var(--txt-color)!important;
+    box-shadow: 0px 6px 16px 0px rgba(0,0,0,0.43);
+    -webkit-box-shadow: 0px 6px 16px 0px rgba(0,0,0,0.43);
+    -moz-box-shadow: 0px 6px 16px 0px rgba(0,0,0,0.43);
+}
+
+.card, .accordion-body, .accordion-item, .accordion-item, .chart, .graph{
+      background-color: var(--div-color)!important;
+      border-radius: 12px!important;
+      box-shadow: var(--box-shadow-color)!important;
+  }
+
+.accordion-button{
+
+    background-color: var(--main-color)!important;
+    border-radius: 12px!important;
+    box-shadow: var(--box-shadow-color)!important;
+}
+
+  .search-card{
+    background-color: var(--main-color)!important;
+    box-shadow: none!important;
+}
+
+  .icons, span, b, p, label, .MuiFormHelperText-root{
+      color: var(--txt-color)!important;
+  }
+
+
+  input, textarea, select, table{
+      background-color: var(--input-color)!important;
+      border: none!important;
+      color: var(--txt-color)!important;
+  }
+
+  th{
+      background-color: var(--main-color)!important;
+  }
+
+  ::placeholder{
+    color: var(--txt-color)!important;
+  }
+
+  .sidebar-items:hover, .card-item:hover, .chart:hover, .left-table:hover, 
+  .right-table:hover, .card-body-user:hover, .product-card:hover{
+    background-color: var(--second-color)!important;
+    cursor: pointer!important;
+  }
+
+  .modal-header, .modal-body, .modal-footer{
+      background-color: var(--main-color)!important;
+  }
