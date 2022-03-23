@@ -11,7 +11,7 @@ El sistema punto de venta cuenta con 7 módulos los cuales se presentan a contin
 - [x] Inventarios
 - [x] Contabilidad
 
-# Authors
+## Authors
 + Maira Cruz Jiménez Hernández
 + Roberto López Resendíz
 + Julio Zael Santillán Ruiz
